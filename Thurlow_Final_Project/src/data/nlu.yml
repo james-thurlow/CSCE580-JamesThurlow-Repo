@@ -1,0 +1,137 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: symptoms
+  examples: |
+    - I have a headache
+    - I have a fever
+    - I have a cough
+    - I have a sore throat
+    - I have a runny nose
+    - I have a stuffy nose
+    - I have a stomach ache
+    - I have a stomach pain
+    - I have a stomach cramps
+    - I have a diarrhea
+    - I have a constipation
+    - I have a nausea
+    - I have a vomiting
+    - I have a chest pain
+    - I have a chest tightness
+    - I have a chest pressure
+    - I have a chest discomfort
+    - I have a chest burning
+    - I have a chest squeezing
+    - I have a chest heaviness
+    - I have a chest fullness
+    - I have a chest indigestion
+    - I have a chest bloating
+    - I have a chest belching
+    - I have a chest burping
+    - I have a chest gurgling
+    - I have a chest rumbling
+    - I have a chest pain that comes and goes
+    - I feel like I may have
+    - I am feeling
+    - I am feeling like
+    - I have come down with
+    - I have caught
+    - I have developed
+    - I have contracted
+    - I have gotten
+    - I have acquired
+    - I have picked up
+    - I have taken on
+    - I was around someone who had
+    - I think I have
+    - I have a family history of
+    

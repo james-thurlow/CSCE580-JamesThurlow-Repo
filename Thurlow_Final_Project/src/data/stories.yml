@@ -1,0 +1,39 @@
+version: "3.1"
+
+stories:
+
+- story: healthy path
+  steps:
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sick path 1
+  steps:
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: symptoms
+  - action: action_check_symptoms
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_warning
+  - action: utter_goodbye
+
+- story: sick path 2
+  steps:
+  - action: utter_greet
+  - intent: symptoms
+  - action: action_check_symptoms
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_ask_again
+  - intent: symptoms
+  - action: action_check_symptoms
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_warning
+  - action: utter_goodbye
+  
